@@ -1,0 +1,19 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.lm_cache/
+data/emails/
+data/raw/
+runs/
+*.pyc
+.DS_Store
+
+# Local credentials and generated artifacts
+.env.*
+!.env.example
+output/
+tmp/
+.terminal_outputs/
+.context_outputs/
+data/emails.jsonl.gz

@@ -1,0 +1,7 @@
+Validation of the public snapshot on Windows, November 8, 2026.
+Command: python -m pytest
+Result: 287 passed, 13 deselected in 30.05s
+
+The deselected tests require live model calls. No paid model calls were made
+for this publication check. The separately saved simulation summary describes
+the earlier October 26 evaluation run.
